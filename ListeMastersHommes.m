@@ -1,0 +1,7 @@
+clear all; close all; clc;
+
+annees = {'1970', '1971', '1972', '1973', '1974', '1975', '1976', '1978', '1979', '1980', '1981', '1982', '1983', '1984', '1985', '1986 (1)', '1986 (2)', '1987', '1988', '1989', '1990', '1991', '1992', '1993', '1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'};
+
+vainqueurs = {'Stan Smith', 'Ilie Nastase', 'Ilie Nastase', 'Ilie Nastase', 'Guillermo Vilas', 'Ilie Nastase', 'Manuel Orantes', 'Jimmy Connors', 'John McEnroe', 'Bjorn Borg', 'Bjorn Borg', 'Ivan Lendl', 'Ivan Lendl', 'John McEnroe', 'John McEnroe', 'Ivan Lendl', 'Ivan Lendl', 'Ivan Lendl', 'Boris Becker', 'Stefan Edberg', 'Andre Agassi', 'Pete Sampras', 'Boris Becker', 'Michael Stich', 'Pete Sampras', 'Boris Becker', 'Pete Sampras', 'Pete Sampras', 'Alex Corretja', 'Pete Sampras', 'Gustavo Kuerten', 'Lleyton Hewitt', 'Lleyton Hewitt', 'Roger Federer', 'Roger Federer', 'David Nalbandian', 'Roger Federer', 'Roger Federer', 'Novak Djokovic', 'Nikolay Davydenko', 'Roger Federer', 'Roger Federer', 'Novak Djokovic', 'Novak Djokovic', 'Novak Djokovic', 'Novak Djokovic', 'Andy Murray', 'Grigor Dimitrov', 'Alexander Zverev', 'Stefanos Tsitsipas', 'Daniil Medvedev', 'Alexander Zverev', 'Novak Djokovic', 'Novak Djokovic', 'Jannik Sinner'}; 
+
+save("ListeMastersHommes.mat");

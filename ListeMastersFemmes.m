@@ -1,0 +1,7 @@
+clear all; close all; clc;
+
+annees = {'1972', '1973', '1974', '1975', '1976', '1977', '1978', '1979', '1980', '1981', '1982', '1983', '1984', '1985', '1986 (1)', '1986 (2)', '1987', '1988', '1989', '1990', '1991', '1992', '1993', '1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2021', '2022', '2023', '2024'};
+
+vainqueurs = {'Chris Evert', 'Chris Evert', 'Evonne Goolagong', 'Chris Evert', 'Evonne Goolagong', 'Chris Evert', 'Martina Navratilova', 'Martina Navratilova', 'Tracy Austin', 'Martina Navratilova', 'Sylvia Hanika', 'Martina Navratilova', 'Martina Navratilova', 'Martina Navratilova', 'Martina Navratilova', 'Martina Navratilova', 'Steffi Graf', 'Gabriela Sabatini', 'Steffi Graf', 'Monica Seles', 'Monica Seles', 'Monica Seles', 'Steffi Graf', 'Gabriela Sabatini', 'Steffi Graf', 'Steffi Graf', 'Jana Novotna', 'Martina Hingis', 'Lindsay Davenport', 'Martina Hingis', 'Serena Williams', 'Kim Clijsters', 'Kim Clijsters', 'Maria Sharapova', 'Amélie Mauresmo', 'Justine Henin', 'Justine Henin', 'Venus Williams', 'Serena Williams', 'Kim Clijsters', 'Petra Kvitova', 'Serena Williams', 'Serena Williams', 'Serena Williams', 'Agnieszka Radwanska', 'Dominika Cibulkova', 'Caroline Wozniacki', 'Elina Svitolina', 'Ashleigh Barty', 'Garbine Muguruza', 'Caroline Garcia', 'Iga Swiatek', 'Coco Gauff'};
+
+save("ListeMastersFemmes.mat");
